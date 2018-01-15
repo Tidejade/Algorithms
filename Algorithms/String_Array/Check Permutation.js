@@ -31,5 +31,5 @@ var CheckPermutation=function (str1,str2) {
   if(str1.length!=str2.length) return false;
   var char1=str1.split("").sort().toString();
   var char2=str2.split("").sort().toString();
-  return (char1==char2);
+  return (char1===char2);
 }
